@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChooseActivity"
+    android:background="#FFEFDB">
+
+    <TextView
+        android:id="@+id/t_2048"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+        android:text="2048"
+        android:textSize="100dp"
+        android:textColor="#CDB38B"/>
+
+    <Button
+        android:id="@+id/button_ks"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:text="开始游戏"
+        android:textSize="50dp"
+        android:background="@drawable/shape_ks"/>
+
+    <Button
+        android:id="@+id/button_js"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:text="游戏介绍"
+        android:textSize="50dp"
+        android:background="@drawable/shape_js"/>
+
+    <Button
+        android:id="@+id/button_tc"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:text="退出游戏"
+        android:textSize="50dp"
+        android:background="@drawable/shape_tc"/>
+
+
+
+</LinearLayout>
